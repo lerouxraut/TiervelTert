@@ -76,3 +76,4 @@ namespace Logic.Repo
             var result = dapperExtensionsProxy.Delete<T>(predicateGroup);//Send empty predicateGroup to delete all records.
         }
     }
+}
