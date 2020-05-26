@@ -1,0 +1,7 @@
+﻿CREATE TABLE [User] (
+	UserId INT IDENTITY(1,1) PRIMARY KEY,
+	Username NVARCHAR(60) NOT NULL,
+	[object_id] UNIQUEIDENTIFIER NULL,
+	ModifiedBy INT,
+	ModifiedDate DATETIME2 DEFAULT( GETDATE())
+)
