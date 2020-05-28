@@ -19,7 +19,11 @@
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
+    "angular-stl-model-viewer": "^0.6.0",
     "rxjs": "~6.5.4",
+    "three": "^0.117.0",
+    "three-orbitcontrols": "^2.110.3",
+    "three-stl-loader": "^1.0.6",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
   },
