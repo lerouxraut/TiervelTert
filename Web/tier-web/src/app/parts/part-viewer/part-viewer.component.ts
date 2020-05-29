@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PartViewerComponent implements OnInit {
 
+public title = 'Parts yo';
+public subtitle = 'bmw k75 timing thingy';
+
   constructor() { }
 
   ngOnInit(): void {

@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { PartViewerComponent } from './part-viewer/part-viewer.component';
-import { StlModelViewerModule  } from 'angular-stl-model-viewer';
+import { StlModelViewerModule } from 'angular-stl-model-viewer';
 
 
 @NgModule({
@@ -14,6 +14,6 @@ import { StlModelViewerModule  } from 'angular-stl-model-viewer';
     PartViewerComponent,
   ]
 })
-export class PartsModule { 
+export class PartsModule {
 
 }
