@@ -21,6 +21,8 @@
     "@angular/platform-browser": "~9.1.9",
     "@angular/platform-browser-dynamic": "~9.1.9",
     "@angular/router": "~9.1.9",
+    "ag-grid-angular": "^23.1.1",
+    "ag-grid-community": "^23.1.1",
     "angular-stl-model-viewer": "^0.6.0",
     "rxjs": "~6.5.4",
     "three": "^0.117.0",

@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { PartsModule } from './parts/parts.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material/material.module';
+import { AgGridModule } from 'ag-grid-angular';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { MaterialModule } from './material/material.module';
     MaterialModule,
     PartsModule,
     BrowserAnimationsModule,
+    AgGridModule.withComponents([]),
   ],
   providers: [],
   bootstrap: [AppComponent]

@@ -71,6 +71,7 @@
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
+    <None Include="ProductDummy.sql" />
   </ItemGroup>
   <ItemGroup>
     <None Include="TierData.publish.xml" />
