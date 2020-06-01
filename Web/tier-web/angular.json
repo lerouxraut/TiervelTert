@@ -123,5 +123,10 @@
       }
     }
   },
-  "defaultProject": "tier-web"
+  "defaultProject": "tier-web",
+  "schematics": {
+    "@schematics/angular:component": {
+      "styleext": "scss"
+    }
+  }
 }
